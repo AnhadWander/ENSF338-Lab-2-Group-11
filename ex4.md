@@ -29,6 +29,7 @@ A worst-case scenario would involve searching all possible rooms before finding 
 Since EY128 is near the middle of the search range, it doesn’t represent either extreme. 
 
 4. With this particular sign and floor layout, explain what a worst-case or best-case scenario would look like?
+
 In the best-case scenario. You enter, turn right, and EY128 is just ahead, requiring minimal steps. This makes for a fast and efficient journey with no backtracking. In the worst-case scenario, you turn right but realize EY128 isn’t there, so you go all the way back to the entrance and start again. This makes the trip much longer and more as you waste time retracing your steps. 
 
 5. Suppose after a few weeks in the term you memorize the layout of the floor. How would you improve the algorithm to make it more efficient?
