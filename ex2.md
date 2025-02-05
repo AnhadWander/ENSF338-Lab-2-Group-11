@@ -1,8 +1,8 @@
-### Question 1:
+## Question 1:
 Interpolation search is better then binary search when the data is uniformly ordered because it does not always split the array in half, but instead it estimates where most likely the element is within the array. This often means fewer comparisons to find correct element. Interpolation search also achieves an average-case time complexity of O(loglogn), compared to O(logn) for binary search. By leveraging the fact that the data is already sorted it is able to 'guess' its way to the correct location in the array to where the element is.
 
 
-#### Question 2:
+### Question 2:
 If the data does not follow a uniform distribution then it will result in the algorithm making poor estimations of where the elemtn is within he array. This leads to many unnecessary comparisons which can degrade the algorithm’s performance to O(n) in the worst case. The reason for this is that interpolation search calculates an estimated position based on a uniform spread of values, which no longer holds true if the data is skewed or clustered. Therefore the "guessing" trick that the algorithms uses to easily find the element loses its advantage which goes to show how the performance of an Interpolation search heavily depends on the uniformity of the data.
 
 
