@@ -26,4 +26,4 @@ cProfile.run("third_function()")
 
 # 1. A profiler is tool used for analyzing the performance of a program while it is executed. It measures various aspects such as execution time and memory usage which can be further used for optimizing the code for better efficiency.
 # 2. Benchmarking is a coarse-grained measurement, whereas profiling is fine-grained. Benchmarking measures the abolute performance of a software on a particular platform, but profiling measures the relative system statistics.
-# 4.
+# 4. The majority of the execution time is taken by the third_function(), because it is computing i**2 value 100 million times and storing it in a list
